@@ -1,14 +1,17 @@
+create DATABASE certificationCisco;
+use certificationCisco;
+
 CREATE TABLE if not exists etudiants (
 id smallint unsigned NOT NULL AUTO_INCREMENT,
 nom char(60) NOT NULL , 
 prenom char(50) NOT NULL ,
 mail VARCHAR(255) NOT NULL,
+Num VARCHAR(255),
 PRIMARY KEY (id)
-)
+);
 
 
 INSERT INTO etudiants (id,nom,prenom,mail) VALUES
-
 (1,"Mouhamad","Aboubakar","mouhamad69140@gmail.com"),
 (2,"Chayne","Achennaoui","chayne69130@gmail.com"),
 (3,"Edwige-Danielle","AKA","danielleaka08@gmail.com"),
@@ -82,7 +85,7 @@ INSERT INTO Certification (id,titre) VALUES
 CREATE TABLE notes(
 Idetudiant smallint unsigned NOT NULL,
 idcertification tinyint unsigned NOT NULL,
-note numeric(5,2) NOT NULL,
+note numeric(5,2),
 PRIMARY KEY (Idetudiant, idcertification)
 );
 
