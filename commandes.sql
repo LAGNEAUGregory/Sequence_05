@@ -404,4 +404,3 @@ Insert into notes (idetudiant,idcertification,note) values
 (52,5,87.00),
 (52,6,NULL);
 
-chcp 65001;
