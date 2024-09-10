@@ -1,3 +1,6 @@
+sss
+
+
 create DATABASE certificationCisco;
 use certificationCisco;
 
