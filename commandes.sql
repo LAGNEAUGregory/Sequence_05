@@ -34,7 +34,7 @@ type varchar(40),
 nom_oeuvre varchar(100),
 description text,
 Artiste varchar(50),
-date_creation date,
+date_creation int,
 qr_code_od int,
 PRIMARY KEY (id)
 );
