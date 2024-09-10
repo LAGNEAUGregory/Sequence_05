@@ -28,7 +28,7 @@ PRIMARY KEY (id)
 );
 
 
-CREATE TABLE if not exists oeuvre (
+CREATE TABLE if not exists oeuvres (
 id int unsigned NOT NULL AUTO_INCREMENT,
 type varchar(40),
 nom_oeuvre varchar(100),
