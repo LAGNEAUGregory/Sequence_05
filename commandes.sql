@@ -9,6 +9,7 @@ email varchar(50),
 categorie_id int,
 groupe_id int,
 PRIMARY KEY (id)
+FOREIGN KEY (categorie_id, groupe_id)
 );
 
 
