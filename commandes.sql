@@ -6,7 +6,7 @@ id int unsigned NOT NULL AUTO_INCREMENT,
 nom VARCHAR(20),
 prenom VARCHAR(20),
 email varchar(50),
-Mdp varchar(255),
+mdp varchar(255),
 categorie_id int,
 groupe_id int,
 PRIMARY KEY (id)
