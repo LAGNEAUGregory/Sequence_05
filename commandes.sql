@@ -90,6 +90,39 @@ INSERT INTO oeuvres (id,nom_oeuvre,Artiste,type,date_creation,description) VALUE
 (29,"La Pyramide du Luvre","Ieh Ming Pei","Sculpture/Architecture",1989,"Structure en verre et métal, symblisant l'entrée mderne au musée du Luvre."),
 (30,"La Pietà","Michel-Ange","Sculpture",1499,"Sculpture en marbre représentant la Vierge Marie tenant le crps du Christ après la crucifixin");
 
+INSERT INTO qr_code (id, url , oeuvre_id) VALUES
+(1,"La Nuit étilée.png",1),
+(2,"Les Nymphéas.png",2),
+(3,"La Liberté guidant le peuple.png",3),
+(4,"Le Déjeuner sur l'herbe.png",4),
+(5,"La Jcnde.png",5),
+(6,"Guernica.png",6),
+(7,"Le Cri.png",7),
+(8,"Les Ménines.png",8),
+(9,"La Jeune Fille à la perle.png",9),
+(10,"La Naissance de Vénus.png",10),
+(11,"La Danse.png",11),
+(12,"Le Fils de l'Hmme.png",12),
+(13,"Les Tris Grâces.png",13),
+(14,"Les Demiselles d'Avignn.png",14),
+(15,"L'Écle d'Athènes.png",15),
+(16,"Le Verru.png",16),
+(17,"La Gare Saint-Lazare.png",17),
+(18,"Le Radeau de la Méduse.png",18),
+(19,"La Mrt de Marat.png",19),
+(20,"Le Bal du mulin de la Galette.png",20),
+(21,"Le Penseur.png",21),
+(22,"La Victire de Samthrace.png",22),
+(23,"Le David.png",23),
+(24,"Le Discble.png",24),
+(25,"Le Baiser.png",25),
+(26,"L'Âge d'airain.png",26),
+(27,"La Petite Danseuse de Quatrze Ans.png",27),
+(28,"Le Mïse.png",28),
+(29,"La Pyramide du Luvre.png",29),
+(30,"La Pietà.png",30);
+
+
 
 
 
