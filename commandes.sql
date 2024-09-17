@@ -7,7 +7,6 @@ nom char(60) NOT NULL ,
 prenom char(50) NOT NULL ,
 mail VARCHAR(255) NOT NULL,
 Num VARCHAR(255),
-Mdp varchar(255),
 PRIMARY KEY (id)
 );
 
